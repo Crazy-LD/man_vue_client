@@ -1,0 +1,20 @@
+<svg width="624" height="624" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <defs>
+  <symbol id="svg_17" viewBox="0 0 24 24" height="24" width="24">
+   <path d="m0,0l24,0l0,24l-24,0l0,-24z" fill="none"/>
+   <circle r="1.5" cy="9.5" cx="15.5"/>
+   <circle r="1.5" cy="9.5" cx="8.5"/>
+   <path d="m11.99,2c-5.52,0 -9.99,4.48 -9.99,10s4.47,10 9.99,10c5.53,0 10.01,-4.48 10.01,-10s-4.48,-10 -10.01,-10zm0.01,18c-4.42,0 -8,-3.58 -8,-8s3.58,-8 8,-8s8,3.58 8,8s-3.58,8 -8,8zm-5,-6c0.78,2.34 2.72,4 5,4s4.22,-1.66 5,-4l-10,0z"/>
+  </symbol>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="#ffffff" id="canvas_background" height="626" width="626" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <circle transform="matrix(75.11111662122948,0,0,75.11111662122948,0,0) " id="svg_13" r="1.5" cy="9.5" cx="15.5"/>
+  <use fill="#56ff56" x="-2.002224" y="-1.977097" transform="translate(-50.11593246459961,-52.115928649902344) scale(1.117336630821228) translate(50.11593246459961,52.115928649902344) translate(0.7333331108093262,0.7333331108093262) scale(1.1507362127304077) translate(-0.7333331108093262,-0.7333331108093262) translate(-1,-1) scale(2.733333110809326) translate(1,1) matrix(8.666666984558105,0,0,8.666666984558105,0,0) " xlink:href="#svg_17" id="svg_18"/>
+ </g>
+</svg>
