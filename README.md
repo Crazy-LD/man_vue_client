@@ -1,4 +1,4 @@
-# automenu_vue_client
+# man_vue_client
 
 ## Project setup
 ```
