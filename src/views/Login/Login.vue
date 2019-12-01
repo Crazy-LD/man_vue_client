@@ -143,7 +143,9 @@ export default {
       // });
     },
     getCaptcha() {
-      this.$refs.captcha.src = this.captchaUrl;
+      console.log("laiel");
+      this.$refs.captcha.src =
+        this.BASE_URL + "/user/getcaptcha?time=" + Date.now();
     }
   },
 

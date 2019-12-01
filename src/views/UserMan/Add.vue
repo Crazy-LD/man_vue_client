@@ -1,11 +1,11 @@
 <template>
   <el-dialog :title="title" :visible="openAdd" v-el-drag-dialog v-on:update:visible="close($event)">
     <el-form :model="form" :rules="formRules" ref="addForm">
-      <el-form-item prop="username" label="用户账号" label-width="120px">
+      <el-form-item prop="username" label="用户账号" label-width="120px" required>
         <el-input v-model="form.username" :disabled="isAdd ? false : true"></el-input>
       </el-form-item>
-      <el-form-item v-if="isAdd" prop="password" label="用户密码" label-width="120px">
-        <el-input type="password" :show-password="true" v-model="form.password" required></el-input>
+      <el-form-item v-if="isAdd" prop="password" label="用户密码" label-width="120px" required>
+        <el-input type="password" :show-password="true" v-model="form.password"></el-input>
       </el-form-item>
       <el-form-item prop="name" label="用户姓名" label-width="120px" required>
         <el-input v-model="form.name"></el-input>
